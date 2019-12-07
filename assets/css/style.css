@@ -1,0 +1,121 @@
+/*==========================HEADER*/
+#clockdate{
+	float:right;
+}
+.clockdate-wrapper {
+    background-color: #333;
+    padding:10px;
+    max-width:170px;
+    width:100%;
+    text-align:center;
+    margin:0 0 -2px 0; 
+}
+#clock{
+    background-color:#333;
+    font-family: sans-serif;
+    font-size:25px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+}
+#clock span {
+	color:#888;
+	text-shadow:0px 0px 1px #333;
+	font-size:17px;
+	position:relative;
+	top:-7px;
+}
+#date {
+    font-size:9px;
+    font-family:arial,sans-serif;
+    color:#fff;
+}
+nav.navbar-inverse{
+	height:72px;
+	position:fixed;
+	width:100%;
+	top:0;
+	z-index:999;
+}
+.hederimg{
+	margin-top:15px;
+	margin-left:15px;
+}
+.pagevisit{
+	width:100%;
+	background-color:#47d147;
+	margin-top:13px;
+	height:30px;
+}
+.visitcount{
+	text-align:center;
+	color:#ffffb3;
+	font-size:20px;
+	font-weight:bold;
+}
+
+/*=========================================*/
+/*@font-face {
+    font-family:gunplay;
+    src: url('../img/gunplay.ttf') format('truetype');   
+}
+
+@font-face {
+    font-family:roundcor;
+    src: url('../img/round.ttf') format('truetype');   
+}*/
+
+#prize{
+	height: 50px;
+	font-size: 47px;
+	text-align: center;
+}
+
+.modal{ 
+	margin-top:5%; 
+}
+
+/*.modal-body strong{
+	font-size:35px;
+	font-family:gunplay;
+}*/
+
+#queryresult{
+	font-size: 50px;
+}
+
+#nameresult{
+	font-size: 40px;
+}
+
+#departmentresult{
+	font-size: 25px;
+}
+
+#prizeresult{
+	font-size: 35px;
+}
+
+.modal-body p{ 
+	text-align:center; 
+}
+
+.modal-dialog{ 
+	width:50%; 
+}
+
+.maincontent{
+	margin-top:10em;
+	text-align:center;
+}
+.maincontent #output{
+	font-size:7em;
+	/*font-family:roundcor;*/
+}
+
+.text-prize{
+	text-align: center;
+}
+
+.imgholder img{
+	height: 150px;
+}
